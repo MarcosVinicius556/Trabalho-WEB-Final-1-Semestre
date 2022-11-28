@@ -5,8 +5,7 @@ const data = [
       answer: "const",
     },
     {
-      question:
-      "Qual destes é um framework para front-end? ",
+      question: "Qual destes é um framework para front-end? ",
       options: ["spring", "bootstrap", "json", "array"],
       answer: "bootstrap",
     },
@@ -31,34 +30,38 @@ const data = [
       answer: "JavaScript puro",
     },
     {
-      question:
-        "Qual destas propriedades da a quantidade de elementos de um array?",
+      question: "Qual destas propriedades da a quantidade de elementos de um array?",
       options: ["qty", "length", "items", "index"],
       answer: "length",
     },
     {
-      question:
-        "Qual destas propriedades da a quantidade de elementos de um array?",
-      options: ["qty", "length", "items", "index"],
-      answer: "length",
+      question:"Qual destas opções descreve melhor o que é o TypeScript?",
+      options: ["Um superset de JavaScript", "Uma nova linguagem baseada em C#", "É um padrão de projeto", "Um framework voltado para WEB"],
+      answer: "Um superset de JavaScript",
     },
     {
       question:
-        "Qual destas propriedades da a quantidade de elementos de um array?",
-      options: ["qty", "length", "items", "index"],
-      answer: "length",
+        "O que significa DOM?",
+      options: ["Data Object Management", "Data Order Map", "Document Object Model", "Developer Operation Main"],
+      answer: "Document Object Model",
     },
     {
       question:
-        "Qual destas propriedades da a quantidade de elementos de um array?",
-      options: ["qty", "length", "items", "index"],
-      answer: "length",
+        "O simbolo '[]' indica um(a) ?",
+      options: ["Objeto", "Coleção", "Problema", "Array"],
+      answer: "Array",
     },
     {
       question:
-        "Qual destas propriedades da a quantidade de elementos de um array?",
-      options: ["qty", "length", "items", "index"],
-      answer: "length",
+        "Qual destas propriedades muda a cor de fundo?",
+      options: ["backgorund", "color", "change-background", "modify"],
+      answer: "backgorund",
+    },
+    {
+      question:
+        "Para obtermos um elemento pelo seu id utilizamos o seletor: ",
+      options: ["GetElementByTagId()", "getElementByName()", "getElementById()", "getElement(id)"],
+      answer: "getElementById()",
     },
   ];
   

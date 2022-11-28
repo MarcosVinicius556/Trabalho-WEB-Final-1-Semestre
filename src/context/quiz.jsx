@@ -30,9 +30,21 @@ const quizReducer = (state, action) => {
         case "REORDENAR":
             // console.log("Chegou aqui!");
             // console.log(questions);
+
             const questoes = questions.sort(() => {
                 return Math.random() - 0.5;
             });
+            console.log(questoes);
+            questoes.map(question =>{ 
+                let opcoes = question.options;
+                // console.log(opcoes);
+                opcoes.sort(() => {
+                    return Math.random() - 0.5
+                });
+                question.options = opcoes;
+                // console.log(opcoes);
+             });
+             console.log(questoes);
             // console.log("________________________________");
             // console.log(questoes);
             return {
