@@ -1,0 +1,22 @@
+#estatistica{
+    text-align: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#estatistica h2,
+#estatistica p {
+    margin-bottom: 1rem;
+}
+
+#estatistica p {
+    font-size: 2rem;
+    color: #fff;
+}
+
+#estatistica img {
+    background-position: center;
+    margin: 2rem;
+    height: 200px;
+}

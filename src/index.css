@@ -8,7 +8,7 @@
 body, html {
   min-height: 100vh;
   height: 100%;
-  background-color: #1c1c1c;
+  background-color: #606061;
 }
 
 img {
@@ -17,20 +17,21 @@ img {
 
 button{
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   cursor: pointer;
   padding: .8rem 1.5rem;
-  background: linear-gradient(
-                    90deg,
-                    rgba(132, 53, 222, 1) 0%,
-                    rgba(184, 84, 232, 1) 100%);
-  border-radius: 3rem;
+  background: rgba(248, 117, 117, 0.829);
+  border-radius: 1rem;
   border: none;
+  transition: transform .4s;
+  color: #fff;
 }
 
 button:hover{
-  background: linear-gradient(
-    90deg,
-    rgba(184, 84, 232, 1) 0%,
-    rgba(132, 53, 222, 1) 100%);
+  transform: scale(1.1);
+  background:rgba(199, 62, 62, 0.829);
+}
+
+span {
+  color: red;
 }

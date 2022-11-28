@@ -1,0 +1,32 @@
+.opcoes{
+background-color: #646de4e8;
+border-radius: .5rem;
+padding: 1rem;
+margin-bottom: 1rem;
+cursor: pointer;
+opacity: 0.8;
+transition: .4s;
+color: #fff;
+}
+
+.opcoes:hover{
+    opacity: 1;
+}
+
+#opcoes-container .opcoes span{
+    margin-bottom: 0;
+}
+
+.correto {
+    background: rgb(97, 245, 97);
+    font-weight: bold;
+}
+
+.errado {
+    background: rgb(235, 70, 70);
+    opacity: 0.9;
+}
+
+.opcoes span{
+    color: #fff;
+}

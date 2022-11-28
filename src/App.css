@@ -10,3 +10,17 @@
 .App h1{
   margin-bottom: 2rem;
 }
+
+#pontuacao {
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  height: 3rem;
+  background: rgb(70, 69, 69);
+  align-items: center;
+  border-radius: 25px;
+  border: 2px solid rgb(59, 59, 59);
+  transform: translate(14%, -55%);
+  font-size: 22px;
+}

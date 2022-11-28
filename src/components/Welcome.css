@@ -1,17 +1,29 @@
 #welcome{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     max-width: 500px;
 }
 
-#welcome h2,
-#welcome p {
-    margin-bottom: 1rem;
+
+#welcome span{
+    font-size: bold;
+    text-transform: capitalize;
+    color: red;
 }
 
-#welcome p {
-    color: #8435de;
+
+#welcome p{
+    margin-top: 2.9rem;
+    margin-bottom: -5rem;
+    font-size: 1.5rem;
 }
 
-#welcome img {
-    margin-top: 2rem;
+#welcome span{
+    color: red;
+    font-size: 1.5rem;
+}
+
+#welcome button{
+    align-self: center;
 }
