@@ -31,7 +31,10 @@ function App() {
       {quizState.gameStage === "Playing" && <Question />}
       {/* Se não direciona para o componente Question  */}
       {quizState.gameStage === "End" && <EstatisticaFinal />}
-        
+      
+      <footer>
+        <h4>Desenvolvido por @<span>Marcos Vinicius Angeli Costa</span></h4>
+      </footer>
     </div>
   )
 }

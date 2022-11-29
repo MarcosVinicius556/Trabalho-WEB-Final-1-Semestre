@@ -24,3 +24,15 @@
   transform: translate(14%, -55%);
   font-size: 22px;
 }
+
+
+.App footer {
+  position: fixed;
+  margin-top: 65rem;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.App footer span{
+  color: rgb(104, 255, 210);
+}
